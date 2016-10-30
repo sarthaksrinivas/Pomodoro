@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
-import time
+from time import time, sleep
 
-start = time.time()
-print(start)
+while True:
+    t = time()
+    print(t)
+    sleep(1)
